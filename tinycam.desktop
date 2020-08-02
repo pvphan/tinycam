@@ -1,0 +1,5 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=TinyCam
+Exec=/usr/bin/lxterminal -e /home/pi/tinycam/launch.sh
