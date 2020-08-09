@@ -1,6 +1,8 @@
 tinycam
 ---
 
+![tinycam_v1 CAD](media/tinycam_v1.png)
+
 This is a simple point-and-shoot camera, mostly an excuse to play with the new [Raspberry Pi High Quality camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/) and maybe a simple PCB for battery management.
 The code is a very simple python script wrapping `raspistill`.
 CAD is in [FreeCAD](https://www.freecadweb.org/), and any PCBs designed will be [KiCAD](https://kicad-pcb.org/).
