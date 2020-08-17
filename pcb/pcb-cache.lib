@@ -248,212 +248,40 @@ X ~ 2 100 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lipousbc-eagle-import_CAP_CERAMIC0805-NOOUTLINE
+# dk_Transistors-Bipolar-BJT-Single-Pre-Biased_MMUN2211LT1G
 #
-DEF lipousbc-eagle-import_CAP_CERAMIC0805-NOOUTLINE C 0 40 Y Y 1 L N
-F0 "C" -90 49 50 V V C CNN
-F1 "lipousbc-eagle-import_CAP_CERAMIC0805-NOOUTLINE" 90 49 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF dk_Transistors-Bipolar-BJT-Single-Pre-Biased_MMUN2211LT1G Q 0 0 Y Y 1 F N
+F0 "Q" -162 151 60 H V R CNN
+F1 "dk_Transistors-Bipolar-BJT-Single-Pre-Biased_MMUN2211LT1G" 103 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/DTC114E-D.PDF" 200 300 60 H I L CNN
+F4 "MMUN2211LT1GOSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MMUN2211LT1G" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single, Pre-Biased" 200 700 60 H I L CNN "Family"
+F8 "http://www.onsemi.com/pub/Collateral/DTC114E-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/MMUN2211LT1G/MMUN2211LT1GOSCT-ND/1139908" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS PREBIAS NPN 246MW SOT23-3" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
 DRAW
-S -50 20 50 40 1 0 0 F
-S -50 60 50 80 1 0 0 F
-P 2 1 0 0 0 30 0 0 N
-P 2 1 0 0 0 100 0 70 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_GND
-#
-DEF lipousbc-eagle-import_GND ~ 0 40 Y Y 1 L P
-F0 "" 0 0 50 H I C CNN
-F1 "lipousbc-eagle-import_GND" -60 -100 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -50 0 50 0 N
-X GND 1 0 100 100 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_HEADER-1X570MIL
-#
-DEF lipousbc-eagle-import_HEADER-1X570MIL JP 0 40 Y Y 1 L N
-F0 "JP" -250 325 59 H V L BNN
-F1 "lipousbc-eagle-import_HEADER-1X570MIL" -250 -400 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -250 -300 50 -300 N
-P 2 1 0 0 -250 300 -250 -300 N
-P 2 1 0 0 50 -300 50 300 N
-P 2 1 0 0 50 300 -250 300 N
-X 1 1 -100 200 100 R 50 0 1 0 P I
-X 2 2 -100 100 100 R 50 0 1 0 P I
-X 3 3 -100 0 100 R 50 0 1 0 P I
-X 4 4 -100 -100 100 R 50 0 1 0 P I
-X 5 5 -100 -200 100 R 50 0 1 0 P I
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_JST_2PIN
-#
-DEF lipousbc-eagle-import_JST_2PIN CN 0 40 Y Y 1 L N
-F0 "CN" -250 225 59 H V L BNN
-F1 "lipousbc-eagle-import_JST_2PIN" -250 -200 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -250 -100 50 -100 N
-P 2 1 0 0 -250 200 -250 -100 N
-P 2 1 0 0 50 -100 50 200 N
-P 2 1 0 0 50 200 -250 200 N
-X 1 1 -100 100 100 R 50 0 1 0 P I
-X 2 2 -100 0 100 R 50 0 1 0 P I
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_LED0805_NOOUTLINE
-#
-DEF lipousbc-eagle-import_LED0805_NOOUTLINE LED 0 40 Y Y 1 L N
-F0 "LED" -200 125 42 H V L BNN
-F1 "lipousbc-eagle-import_LED0805_NOOUTLINE" -200 -110 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 0 0 N
-P 2 1 0 0 -100 50 -100 -50 N
-P 2 1 0 0 -75 50 -25 100 N
-P 2 1 0 0 -37 112 -12 87 N
-P 2 1 0 0 -25 50 25 100 N
-P 2 1 0 0 -12 87 0 125 N
-P 2 1 0 0 0 0 -100 50 N
-P 2 1 0 0 0 0 0 -50 N
-P 2 1 0 0 0 50 0 0 N
-P 2 1 0 0 0 125 -37 112 N
-P 2 1 0 0 12 112 37 87 N
-P 2 1 0 0 37 87 50 125 N
-P 2 1 0 0 50 125 12 112 N
-X A A -200 0 100 R 0 0 1 0 P
-X C C 100 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_MCP73831_2
-#
-DEF lipousbc-eagle-import_MCP73831_2 U 0 40 Y Y 1 L N
-F0 "U" -400 450 42 H V L BNN
-F1 "lipousbc-eagle-import_MCP73831_2" -400 -500 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 -375 42 0 1 0 -40-85°C Normal 0 L B
-T 0 0 -300 42 0 1 0 3.75-6V Normal 0 L B
-T 0 -250 250 42 0 1 0 "LIPO Charger" Normal 0 L B
-T 0 -225 325 42 0 1 0 MCP73831/2 Normal 0 L B
-T 0 -325 -375 42 0 1 0 Temp: Normal 0 L B
-T 0 -325 -300 42 0 1 0 VDD: Normal 0 L B
-P 2 1 0 0 -400 -200 -400 -400 N
-P 2 1 0 0 -400 -200 -400 200 N
-P 2 1 0 0 -400 200 400 200 N
-P 2 1 0 0 -400 400 -400 200 N
-P 2 1 0 0 -400 400 400 400 N
-P 2 1 0 0 400 -400 -400 -400 N
-P 2 1 0 0 400 -200 -400 -200 N
-P 2 1 0 0 400 -200 400 -400 N
-P 2 1 0 0 400 200 400 -200 N
-P 2 1 0 0 400 400 400 200 N
-X STAT 1 -500 -100 100 R 50 50 1 0 O
-X VSS 2 500 -100 100 L 50 50 1 0 W
-X VBAT 3 500 100 100 L 50 50 1 0 W
-X VDD 4 -500 100 100 R 50 50 1 0 W
-X PROG 5 500 0 100 L 50 50 1 0 I
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_RESISTOR_0603_NOOUT
-#
-DEF lipousbc-eagle-import_RESISTOR_0603_NOOUT R 0 40 Y Y 1 L N
-F0 "R" 0 100 50 H V C CNN
-F1 "lipousbc-eagle-import_RESISTOR_0603_NOOUT" 0 0 40 H V C CNB
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_SOLDERJUMPER
-#
-DEF lipousbc-eagle-import_SOLDERJUMPER SJ 0 40 Y Y 1 L N
-F0 "SJ" -100 100 59 H V L BNN
-F1 "lipousbc-eagle-import_SOLDERJUMPER" -100 -150 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
-A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
-P 2 1 0 0 -100 0 -65 0 N
-P 2 1 0 0 100 0 65 0 N
-X 1 1 -200 0 100 R 50 0 1 0 P
-X 2 2 200 0 100 L 50 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# lipousbc-eagle-import_USB_C
-#
-DEF lipousbc-eagle-import_USB_C X 0 40 Y Y 1 L N
-F0 "X" -400 540 42 H V L BNN
-F1 "lipousbc-eagle-import_USB_C" -400 -600 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -233 125 7 1 0 39 N
-C -51 62 19 1 0 39 N
-T 0 -200 -100 42 0 1 0 "USB C" Normal 0 C C
-S -280 -17 -233 29 1 0 0 F
-P 2 1 0 0 -401 300 -400 500 N
-P 2 1 0 0 -400 -500 300 -500 N
-P 2 1 0 0 -400 500 -400 -500 N
-P 2 1 0 0 -400 500 300 500 N
-P 2 1 0 0 -351 62 -319 94 N
-P 2 1 0 0 -335 55 -327 47 N
-P 2 1 0 0 -335 62 -335 55 N
-P 2 1 0 0 -327 47 -327 78 N
-P 2 1 0 0 -327 78 -343 62 N
-P 2 1 0 0 -319 31 -351 62 N
-P 2 1 0 0 -319 39 -319 94 N
-P 2 1 0 0 -319 94 -311 94 N
-P 2 1 0 0 -311 31 -319 31 N
-P 2 1 0 0 -311 62 -311 31 N
-P 2 1 0 0 -311 94 -311 62 N
-P 2 1 0 0 -246 5 -199 5 N
-P 2 1 0 0 -217 125 -177 125 N
-P 2 1 0 0 -199 5 -166 62 N
-P 2 1 0 0 -177 125 -136 62 N
-P 2 1 0 0 -166 62 -311 62 N
-P 2 1 0 0 -136 62 -166 62 N
-P 2 1 0 0 -51 62 -136 62 N
-P 2 1 0 0 300 500 300 -500 N
-X GND A1B12 400 -400 100 L 0 50 1 0 W
-X VBUS A4B9 400 400 100 L 0 50 1 0 W
-X CC1 A5 400 100 100 L 0 50 1 0 B
-X D+ A6 400 300 100 L 0 50 1 0 B
-X D- A7 400 200 100 L 0 50 1 0 B
-X SBU1 A8 400 -100 100 L 0 50 1 0 B
-X GND B1A12 400 -400 100 L 0 50 1 0 W
-X VBUS B4A9 400 400 100 L 0 50 1 0 W
-X CC2 B5 400 0 100 L 0 50 1 0 B
-X D+ B6 400 300 100 L 0 50 1 0 B
-X D- B7 400 200 100 L 0 50 1 0 B
-X SBU2 B8 400 -200 100 L 0 50 1 0 B
+C -130 0 4 0 1 0 N
+C -100 0 139 0 1 0 f
+C 0 -79 3 0 1 0 N
+P 2 0 1 0 -130 -80 0 -80 N
+P 2 0 1 0 -130 0 -130 -10 N
+P 2 0 1 0 -100 -30 0 -65 N
+P 2 0 1 0 -100 0 -100 -50 N
+P 2 0 1 0 -100 0 -100 52 N
+P 2 0 1 0 -100 30 0 60 N
+P 2 0 1 0 0 -100 0 -65 N
+P 2 0 1 0 0 100 0 60 N
+P 4 0 1 0 -45 -50 -62 -26 -71 -59 -46 -49 F
+P 9 0 1 0 -130 -10 -120 -15 -140 -25 -120 -35 -140 -45 -120 -55 -140 -65 -130 -70 -130 -80 N
+P 10 0 1 0 -250 0 -225 0 -220 10 -210 -10 -200 10 -190 -10 -180 10 -170 -10 -165 0 -100 0 N
+X B 1 -350 0 100 R 50 40 1 1 I
+X E 2 0 -200 100 U 50 40 1 1 P
+X C 3 0 200 100 D 50 40 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -667,6 +495,56 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
+# pcb-rescue_CAP_CERAMIC0805-NOOUTLINE-lipousbc-eagle-import
+#
+DEF pcb-rescue_CAP_CERAMIC0805-NOOUTLINE-lipousbc-eagle-import C 0 40 Y Y 1 L N
+F0 "C" -90 49 50 V V C CNN
+F1 "pcb-rescue_CAP_CERAMIC0805-NOOUTLINE-lipousbc-eagle-import" 90 49 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 20 50 40 1 0 0 F
+S -50 60 50 80 1 0 0 F
+P 2 1 0 0 0 30 0 0 N
+P 2 1 0 0 0 100 0 70 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_GND-lipousbc-eagle-import
+#
+DEF pcb-rescue_GND-lipousbc-eagle-import ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "pcb-rescue_GND-lipousbc-eagle-import" -60 -100 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 50 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_HEADER-1X570MIL-lipousbc-eagle-import
+#
+DEF pcb-rescue_HEADER-1X570MIL-lipousbc-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 325 59 H V L BNN
+F1 "pcb-rescue_HEADER-1X570MIL-lipousbc-eagle-import" -250 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -300 50 -300 N
+P 2 1 0 0 -250 300 -250 -300 N
+P 2 1 0 0 50 -300 50 300 N
+P 2 1 0 0 50 300 -250 300 N
+X 1 1 -100 200 100 R 50 0 1 0 P I
+X 2 2 -100 100 100 R 50 0 1 0 P I
+X 3 3 -100 0 100 R 50 0 1 0 P I
+X 4 4 -100 -100 100 R 50 0 1 0 P I
+X 5 5 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
 # pcb-rescue_HEADER-1X8ROUND-pcb-eagle-import
 #
 DEF pcb-rescue_HEADER-1X8ROUND-pcb-eagle-import JP 0 40 Y Y 1 L N
@@ -709,6 +587,81 @@ X 2 P$2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
+# pcb-rescue_JST_2PIN-lipousbc-eagle-import
+#
+DEF pcb-rescue_JST_2PIN-lipousbc-eagle-import CN 0 40 Y Y 1 L N
+F0 "CN" -250 225 59 H V L BNN
+F1 "pcb-rescue_JST_2PIN-lipousbc-eagle-import" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_LED0805_NOOUTLINE-lipousbc-eagle-import
+#
+DEF pcb-rescue_LED0805_NOOUTLINE-lipousbc-eagle-import LED 0 40 Y Y 1 L N
+F0 "LED" -200 125 42 H V L BNN
+F1 "pcb-rescue_LED0805_NOOUTLINE-lipousbc-eagle-import" -200 -110 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -50 0 0 N
+P 2 1 0 0 -100 50 -100 -50 N
+P 2 1 0 0 -75 50 -25 100 N
+P 2 1 0 0 -37 112 -12 87 N
+P 2 1 0 0 -25 50 25 100 N
+P 2 1 0 0 -12 87 0 125 N
+P 2 1 0 0 0 0 -100 50 N
+P 2 1 0 0 0 0 0 -50 N
+P 2 1 0 0 0 50 0 0 N
+P 2 1 0 0 0 125 -37 112 N
+P 2 1 0 0 12 112 37 87 N
+P 2 1 0 0 37 87 50 125 N
+P 2 1 0 0 50 125 12 112 N
+X A A -200 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_MCP73831_2-lipousbc-eagle-import
+#
+DEF pcb-rescue_MCP73831_2-lipousbc-eagle-import U 0 40 Y Y 1 L N
+F0 "U" -400 450 42 H V L BNN
+F1 "pcb-rescue_MCP73831_2-lipousbc-eagle-import" -400 -500 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -375 42 0 1 0 -40-85°C Normal 0 L B
+T 0 0 -300 42 0 1 0 3.75-6V Normal 0 L B
+T 0 -250 250 42 0 1 0 "LIPO Charger" Normal 0 L B
+T 0 -225 325 42 0 1 0 MCP73831/2 Normal 0 L B
+T 0 -325 -375 42 0 1 0 Temp: Normal 0 L B
+T 0 -325 -300 42 0 1 0 VDD: Normal 0 L B
+P 2 1 0 0 -400 -200 -400 -400 N
+P 2 1 0 0 -400 -200 -400 200 N
+P 2 1 0 0 -400 200 400 200 N
+P 2 1 0 0 -400 400 -400 200 N
+P 2 1 0 0 -400 400 400 400 N
+P 2 1 0 0 400 -400 -400 -400 N
+P 2 1 0 0 400 -200 -400 -200 N
+P 2 1 0 0 400 -200 400 -400 N
+P 2 1 0 0 400 200 400 -200 N
+P 2 1 0 0 400 400 400 200 N
+X STAT 1 -500 -100 100 R 50 50 1 0 O
+X VSS 2 500 -100 100 L 50 50 1 0 W
+X VBAT 3 500 100 100 L 50 50 1 0 W
+X VDD 4 -500 100 100 R 50 50 1 0 W
+X PROG 5 500 0 100 L 50 50 1 0 I
+ENDDRAW
+ENDDEF
+#
 # pcb-rescue_MCP73871-pcb-eagle-import
 #
 DEF pcb-rescue_MCP73871-pcb-eagle-import U 0 40 Y Y 1 L N
@@ -742,6 +695,40 @@ X /PG P$6 -700 300 100 R 0 50 1 0 B
 X STAT2 P$7 -700 200 100 R 0 50 1 0 B
 X STAT1/LBO P$8 -700 100 100 R 0 50 1 0 B
 X /TE P$9 -700 -300 100 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_RESISTOR_0603_NOOUT-lipousbc-eagle-import
+#
+DEF pcb-rescue_RESISTOR_0603_NOOUT-lipousbc-eagle-import R 0 40 Y Y 1 L N
+F0 "R" 0 100 50 H V C CNN
+F1 "pcb-rescue_RESISTOR_0603_NOOUT-lipousbc-eagle-import" 0 0 40 H V C CNB
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -50 -100 50 N
+P 2 1 0 0 -100 50 100 50 N
+P 2 1 0 0 100 -50 -100 -50 N
+P 2 1 0 0 100 50 100 -50 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_SOLDERJUMPER-lipousbc-eagle-import
+#
+DEF pcb-rescue_SOLDERJUMPER-lipousbc-eagle-import SJ 0 40 Y Y 1 L N
+F0 "SJ" -100 100 59 H V L BNN
+F1 "pcb-rescue_SOLDERJUMPER-lipousbc-eagle-import" -100 -150 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
+A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
+P 2 1 0 0 -100 0 -65 0 N
+P 2 1 0 0 100 0 65 0 N
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 200 0 100 L 50 0 1 0 P
 ENDDRAW
 ENDDEF
 #
@@ -807,6 +794,56 @@ X GND SPRT@2 400 -200 100 L 0 50 1 0 W
 X GND SPRT@3 400 -200 100 L 0 50 1 0 W
 X GND SPRT@4 400 -200 100 L 0 50 1 0 W
 X VBUS VBUS 400 200 100 L 0 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# pcb-rescue_USB_C-lipousbc-eagle-import
+#
+DEF pcb-rescue_USB_C-lipousbc-eagle-import X 0 40 Y Y 1 L N
+F0 "X" -400 540 42 H V L BNN
+F1 "pcb-rescue_USB_C-lipousbc-eagle-import" -400 -600 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -233 125 7 1 0 39 N
+C -51 62 19 1 0 39 N
+T 0 -200 -100 42 0 1 0 "USB C" Normal 0 C C
+S -280 -17 -233 29 1 0 0 F
+P 2 1 0 0 -401 300 -400 500 N
+P 2 1 0 0 -400 -500 300 -500 N
+P 2 1 0 0 -400 500 -400 -500 N
+P 2 1 0 0 -400 500 300 500 N
+P 2 1 0 0 -351 62 -319 94 N
+P 2 1 0 0 -335 55 -327 47 N
+P 2 1 0 0 -335 62 -335 55 N
+P 2 1 0 0 -327 47 -327 78 N
+P 2 1 0 0 -327 78 -343 62 N
+P 2 1 0 0 -319 31 -351 62 N
+P 2 1 0 0 -319 39 -319 94 N
+P 2 1 0 0 -319 94 -311 94 N
+P 2 1 0 0 -311 31 -319 31 N
+P 2 1 0 0 -311 62 -311 31 N
+P 2 1 0 0 -311 94 -311 62 N
+P 2 1 0 0 -246 5 -199 5 N
+P 2 1 0 0 -217 125 -177 125 N
+P 2 1 0 0 -199 5 -166 62 N
+P 2 1 0 0 -177 125 -136 62 N
+P 2 1 0 0 -166 62 -311 62 N
+P 2 1 0 0 -136 62 -166 62 N
+P 2 1 0 0 -51 62 -136 62 N
+P 2 1 0 0 300 500 300 -500 N
+X GND A1B12 400 -400 100 L 0 50 1 0 W
+X VBUS A4B9 400 400 100 L 0 50 1 0 W
+X CC1 A5 400 100 100 L 0 50 1 0 B
+X D+ A6 400 300 100 L 0 50 1 0 B
+X D- A7 400 200 100 L 0 50 1 0 B
+X SBU1 A8 400 -100 100 L 0 50 1 0 B
+X GND B1A12 400 -400 100 L 0 50 1 0 W
+X VBUS B4A9 400 400 100 L 0 50 1 0 W
+X CC2 B5 400 0 100 L 0 50 1 0 B
+X D+ B6 400 300 100 L 0 50 1 0 B
+X D- B7 400 200 100 L 0 50 1 0 B
+X SBU2 B8 400 -200 100 L 0 50 1 0 B
 ENDDRAW
 ENDDEF
 #

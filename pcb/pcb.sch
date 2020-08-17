@@ -1303,8 +1303,8 @@ $Comp
 L Battery_Management:MCP73871-1AA U?
 U 1 1 5F677DC5
 P 24950 11200
-F 0 "U?" H 24950 12281 50  0000 C CNN
-F 1 "MCP73871-1AA" H 24950 12190 50  0000 C CNN
+F 0 "U?" H 24300 12200 50  0000 C CNN
+F 1 "MCP73871-1AA" H 24550 12100 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 25150 10300 50  0001 L CIN
 F 3 "http://www.mouser.com/ds/2/268/22090a-52174.pdf" H 24800 11750 50  0001 C CNN
 	1    24950 11200
@@ -1313,44 +1313,44 @@ $EndComp
 $Comp
 L dk_Pushbutton-Switches:GPTS203211B S?
 U 1 1 5F714B41
-P 17450 11750
-F 0 "S?" H 17450 12025 50  0000 C CNN
-F 1 "GPTS203211B" H 17450 11934 50  0000 C CNN
-F 2 "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B" H 17650 11950 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 17650 12050 60  0001 L CNN
-F 4 "CW181-ND" H 17650 12150 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 17650 12250 60  0001 L CNN "MPN"
-F 6 "Switches" H 17650 12350 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 17650 12450 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 17650 12550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 17650 12650 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 17650 12750 60  0001 L CNN "Description"
-F 11 "CW Industries" H 17650 12850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 17650 12950 60  0001 L CNN "Status"
-	1    17450 11750
+P 17900 11450
+F 0 "S?" H 17900 11725 50  0000 C CNN
+F 1 "GPTS203211B" H 17900 11634 50  0000 C CNN
+F 2 "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B" H 18100 11650 50  0001 L CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 18100 11750 60  0001 L CNN
+F 4 "CW181-ND" H 18100 11850 60  0001 L CNN "Digi-Key_PN"
+F 5 "GPTS203211B" H 18100 11950 60  0001 L CNN "MPN"
+F 6 "Switches" H 18100 12050 60  0001 L CNN "Category"
+F 7 "Pushbutton Switches" H 18100 12150 60  0001 L CNN "Family"
+F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 18100 12250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 18100 12350 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 18100 12450 60  0001 L CNN "Description"
+F 11 "CW Industries" H 18100 12550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 18100 12650 60  0001 L CNN "Status"
+	1    17900 11450
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_ J?
 U 1 1 5F857395
-P 26050 11000
-F 0 "J?" H 26228 11054 50  0000 L CNN
-F 1 "B2B-PH-K-S_LF__SN_" V 26100 9950 50  0000 L CNN
-F 2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" H 26250 11200 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 26250 11300 60  0001 L CNN
-F 4 "455-1704-ND" H 26250 11400 60  0001 L CNN "Digi-Key_PN"
-F 5 "B2B-PH-K-S(LF)(SN)" H 26250 11500 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 26250 11600 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 26250 11700 60  0001 L CNN "Family"
-F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 26250 11800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" H 26250 11900 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 2POS 2MM" H 26250 12000 60  0001 L CNN "Description"
-F 11 "JST Sales America Inc." H 26250 12100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 26250 12200 60  0001 L CNN "Status"
-	1    26050 11000
+P 26800 11000
+F 0 "J?" H 26978 11054 50  0000 L CNN
+F 1 "B2B-PH-K-S_LF__SN_" V 26850 9950 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" H 27000 11200 60  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 27000 11300 60  0001 L CNN
+F 4 "455-1704-ND" H 27000 11400 60  0001 L CNN "Digi-Key_PN"
+F 5 "B2B-PH-K-S(LF)(SN)" H 27000 11500 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 27000 11600 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 27000 11700 60  0001 L CNN "Family"
+F 8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 27000 11800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" H 27000 11900 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2MM" H 27000 12000 60  0001 L CNN "Description"
+F 11 "JST Sales America Inc." H 27000 12100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 27000 12200 60  0001 L CNN "Status"
+	1    26800 11000
 	0    -1   -1   0   
 $EndComp
-Text Notes 14750 11800 0    50   ~ 0
+Text Notes 14800 11700 0    50   ~ 0
 RPi header, first 16 pins (2x8)
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J?
@@ -1507,7 +1507,7 @@ Wire Wire Line
 Text Label 8000 13350 0    70   ~ 0
 5V
 $Comp
-L lipousbc-eagle-import:MCP73831_2 U1
+L pcb-rescue:MCP73831_2-lipousbc-eagle-import U1
 U 1 1 ECE7DB32
 P 10200 14650
 F 0 "U1" H 9800 15100 42  0000 L BNN
@@ -1518,7 +1518,7 @@ F 3 "" H 10200 14650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:LED0805_NOOUTLINE LED1
+L pcb-rescue:LED0805_NOOUTLINE-lipousbc-eagle-import LED1
 U 1 1 5FB33D53
 P 8900 14750
 F 0 "LED1" H 8700 14875 42  0000 L BNN
@@ -1529,7 +1529,7 @@ F 3 "" H 8900 14750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:LED0805_NOOUTLINE LED2
+L pcb-rescue:LED0805_NOOUTLINE-lipousbc-eagle-import LED2
 U 1 1 836D62AD
 P 8800 15050
 F 0 "LED2" H 8600 15175 42  0000 L BNN
@@ -1540,7 +1540,7 @@ F 3 "" H 8800 15050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R1
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R1
 U 1 1 1C1E0795
 P 9300 14750
 F 0 "R1" H 9300 14850 50  0000 C CNN
@@ -1551,7 +1551,7 @@ F 3 "" H 9300 14750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R2
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R2
 U 1 1 24183500
 P 9300 15050
 F 0 "R2" H 9300 15150 50  0000 C CNN
@@ -1562,7 +1562,7 @@ F 3 "" H 9300 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:JST_2PIN CN2
+L pcb-rescue:JST_2PIN-lipousbc-eagle-import CN2
 U 1 1 368CABAD
 P 12100 14550
 F 0 "CN2" H 11850 14775 59  0000 L BNN
@@ -1573,7 +1573,7 @@ F 3 "" H 12100 14550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L lipousbc-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+L pcb-rescue:CAP_CERAMIC0805-NOOUTLINE-lipousbc-eagle-import C1
 U 1 1 0BA3E8AC
 P 8300 14850
 F 0 "C1" V 8209 14899 50  0000 C CNN
@@ -1584,7 +1584,7 @@ F 3 "" H 8300 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$3
+L pcb-rescue:GND-lipousbc-eagle-import #U$3
 U 1 1 54307519
 P 8300 15250
 F 0 "#U$3" H 8300 15250 50  0001 C CNN
@@ -1595,7 +1595,7 @@ F 3 "" H 8300 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+L pcb-rescue:CAP_CERAMIC0805-NOOUTLINE-lipousbc-eagle-import C2
 U 1 1 4326D68F
 P 11500 14850
 F 0 "C2" V 11409 14899 50  0000 C CNN
@@ -1606,7 +1606,7 @@ F 3 "" H 11500 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$4
+L pcb-rescue:GND-lipousbc-eagle-import #U$4
 U 1 1 5FB33D51
 P 11800 15250
 F 0 "#U$4" H 11800 15250 50  0001 C CNN
@@ -1617,7 +1617,7 @@ F 3 "" H 11800 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$5
+L pcb-rescue:GND-lipousbc-eagle-import #U$5
 U 1 1 5FB33D50
 P 11500 15250
 F 0 "#U$5" H 11500 15250 50  0001 C CNN
@@ -1628,7 +1628,7 @@ F 3 "" H 11500 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R3
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R3
 U 1 1 E1A73571
 P 11100 14650
 F 0 "R3" H 11100 14750 50  0000 C CNN
@@ -1639,7 +1639,7 @@ F 3 "" H 11100 14650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$6
+L pcb-rescue:GND-lipousbc-eagle-import #U$6
 U 1 1 371C5F19
 P 11300 15650
 F 0 "#U$6" H 11300 15650 50  0001 C CNN
@@ -1650,7 +1650,7 @@ F 3 "" H 11300 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$7
+L pcb-rescue:GND-lipousbc-eagle-import #U$7
 U 1 1 BE1960E8
 P 8600 15250
 F 0 "#U$7" H 8600 15250 50  0001 C CNN
@@ -1661,7 +1661,7 @@ F 3 "" H 8600 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R4
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R4
 U 1 1 5484990A
 P 11100 15050
 F 0 "R4" H 11100 15150 50  0000 C CNN
@@ -1672,7 +1672,7 @@ F 3 "" H 11100 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:SOLDERJUMPER SJ1
+L pcb-rescue:SOLDERJUMPER-lipousbc-eagle-import SJ1
 U 1 1 44DD8191
 P 10900 14850
 F 0 "SJ1" H 10800 14950 59  0000 L BNN
@@ -1683,7 +1683,7 @@ F 3 "" H 10900 14850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lipousbc-eagle-import:USB_C X2
+L pcb-rescue:USB_C-lipousbc-eagle-import X2
 U 1 1 DDF2E3E2
 P 6400 14850
 F 0 "X2" H 6000 14290 42  0000 L BNN
@@ -1694,7 +1694,7 @@ F 3 "" H 6400 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R5
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R5
 U 1 1 835EC8B8
 P 8450 16800
 F 0 "R5" H 8450 16900 50  0000 C CNN
@@ -1705,7 +1705,7 @@ F 3 "" H 8450 16800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lipousbc-eagle-import:RESISTOR_0603_NOOUT R6
+L pcb-rescue:RESISTOR_0603_NOOUT-lipousbc-eagle-import R6
 U 1 1 12DDCAE5
 P 8650 16800
 F 0 "R6" H 8650 16900 50  0000 C CNN
@@ -1716,7 +1716,7 @@ F 3 "" H 8650 16800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$8
+L pcb-rescue:GND-lipousbc-eagle-import #U$8
 U 1 1 E90442EA
 P 8450 17200
 F 0 "#U$8" H 8450 17200 50  0001 C CNN
@@ -1727,7 +1727,7 @@ F 3 "" H 8450 17200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$14
+L pcb-rescue:GND-lipousbc-eagle-import #U$14
 U 1 1 5FB33D4E
 P 8650 17200
 F 0 "#U$14" H 8650 17200 50  0001 C CNN
@@ -1738,7 +1738,7 @@ F 3 "" H 8650 17200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:GND #U$15
+L pcb-rescue:GND-lipousbc-eagle-import #U$15
 U 1 1 5FB33D4B
 P 7400 15350
 F 0 "#U$15" H 7400 15350 50  0001 C CNN
@@ -1749,7 +1749,7 @@ F 3 "" H 7400 15350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lipousbc-eagle-import:HEADER-1X570MIL JP4
+L pcb-rescue:HEADER-1X570MIL-lipousbc-eagle-import JP4
 U 1 1 47274FB3
 P 9000 13550
 F 0 "JP4" H 8750 13875 59  0000 L BNN
@@ -1999,12 +1999,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 603B0EAA
-P 25950 11000
-F 0 "#PWR?" H 25950 10750 50  0001 C CNN
-F 1 "GND" H 25955 10827 50  0000 C CNN
-F 2 "" H 25950 11000 50  0001 C CNN
-F 3 "" H 25950 11000 50  0001 C CNN
-	1    25950 11000
+P 26700 11000
+F 0 "#PWR?" H 26700 10750 50  0001 C CNN
+F 1 "GND" H 26705 10827 50  0000 C CNN
+F 2 "" H 26700 11000 50  0001 C CNN
+F 3 "" H 26700 11000 50  0001 C CNN
+	1    26700 11000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2075,9 +2075,6 @@ Wire Wire Line
 	25650 11100 25800 11100
 Wire Wire Line
 	25800 11100 25800 10900
-Connection ~ 25800 10900
-Wire Wire Line
-	25800 10900 25950 10900
 $Comp
 L power:GND #PWR?
 U 1 1 60596B18
@@ -2105,7 +2102,7 @@ NoConn ~ 9050 11450
 NoConn ~ 9050 11150
 NoConn ~ 9050 11050
 $Comp
-L lipousbc-eagle-import:USB_C X?
+L pcb-rescue:USB_C-lipousbc-eagle-import X?
 U 1 1 60044940
 P 8650 11350
 F 0 "X?" H 8657 11997 42  0000 C CNN
@@ -2128,4 +2125,99 @@ F 3 "~" H 23900 12100 50  0001 C CNN
 $EndComp
 Text GLabel 25650 10600 2    50   Input ~ 0
 VBAT
+Text GLabel 24950 10300 1    50   Input ~ 0
+VBUS
+Text GLabel 15550 10950 2    50   Input ~ 0
+GND
+Text GLabel 15550 11050 2    50   Input ~ 0
+PI_BCM_14_TXD
+Text GLabel 15550 11150 2    50   Input ~ 0
+PI_BCM_15_RXD
+Text GLabel 15550 11250 2    50   Input ~ 0
+PI_BCM_18_PWM0
+Text GLabel 15550 11350 2    50   Input ~ 0
+GND
+Text GLabel 15550 11450 2    50   Input ~ 0
+PI_BCM_23
+Text GLabel 15050 10750 0    50   Input ~ 0
+PI_3V3
+Text GLabel 15050 10850 0    50   Input ~ 0
+PI_BCM_2_SDA
+Text GLabel 15050 10950 0    50   Input ~ 0
+PI_BCM_3_SCL
+Text GLabel 15050 11050 0    50   Input ~ 0
+PI_BCM_4_GPCLK0
+Text GLabel 15050 11150 0    50   Input ~ 0
+GND
+Text GLabel 15050 11250 0    50   Input ~ 0
+PI_BCM_17
+Text GLabel 15050 11350 0    50   Input ~ 0
+PI_BCM_27
+Text GLabel 15050 11450 0    50   Input ~ 0
+PI_BCM_22
+$Comp
+L Device:C C?
+U 1 1 5F4977F2
+P 26200 11050
+F 0 "C?" H 25950 11150 50  0000 L CNN
+F 1 "10 uF" H 25850 11050 50  0000 L CNN
+F 2 "" H 26238 10900 50  0001 C CNN
+F 3 "~" H 26200 11050 50  0001 C CNN
+	1    26200 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4B2431
+P 26200 11200
+F 0 "#PWR?" H 26200 10950 50  0001 C CNN
+F 1 "GND" H 26205 11027 50  0000 C CNN
+F 2 "" H 26200 11200 50  0001 C CNN
+F 3 "" H 26200 11200 50  0001 C CNN
+	1    26200 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	25800 10900 26200 10900
+Connection ~ 25800 10900
+Wire Wire Line
+	26200 10650 26200 10900
+Connection ~ 26200 10900
+Text GLabel 26200 10600 1    50   Input ~ 0
+VLIPO
+Wire Wire Line
+	26200 10900 26700 10900
+Text GLabel 15700 10750 2    50   Input ~ 0
+VBUS
+Wire Wire Line
+	15550 10750 15650 10750
+Wire Wire Line
+	15550 10850 15650 10850
+Wire Wire Line
+	15650 10850 15650 10750
+Connection ~ 15650 10750
+Wire Wire Line
+	15650 10750 15700 10750
+$Comp
+L dk_Transistors-Bipolar-BJT-Single-Pre-Biased:MMUN2211LT1G Q?
+U 1 1 5F5AA044
+P 20300 11750
+F 0 "Q?" H 20388 11803 60  0000 L CNN
+F 1 "MMUN2211LT1G" H 20388 11697 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 20500 11950 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/DTC114E-D.PDF" H 20500 12050 60  0001 L CNN
+F 4 "MMUN2133LT1GOSCT-ND" H 20500 12150 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMUN2133LT1G" H 20500 12250 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 20500 12350 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single, Pre-Biased" H 20500 12450 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/DTC114E-D.PDF" H 20500 12550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MMUN2211LT1G/MMUN2211LT1GOSCT-ND/1139908" H 20500 12650 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS PREBIAS NPN 246MW SOT23-3" H 20500 12750 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 20500 12850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 20500 12950 60  0001 L CNN "Status"
+	1    20300 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19400 11750 19950 11750
 $EndSCHEMATC
