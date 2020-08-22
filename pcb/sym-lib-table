@@ -152,4 +152,5 @@
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri /home/vinh/git/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
   (lib (name pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-rescue.lib)(options "")(descr ""))
   (lib (name lipousbc-eagle-import)(type Legacy)(uri /home/vinh/git/tinycam/pcb/reference/lipousbc/lipousbc-eagle-import.lib)(options "")(descr ""))
+  (lib (name pcb-copy)(type Legacy)(uri ${KIPRJMOD}/pcb-copy.lib)(options "")(descr ""))
 )

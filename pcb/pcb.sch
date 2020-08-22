@@ -68,10 +68,10 @@ F 3 "~" H 11500 3600 50  0001 C CNN
 	1    11500 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 3450 2    50   Input ~ 0
+Text GLabel 4800 3550 2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	4500 3150 4800 3150
+	4500 3250 4800 3250
 $Comp
 L Device:R R3
 U 1 1 600F42D8
@@ -94,10 +94,6 @@ F 3 "~" H 4650 3850 50  0001 C CNN
 	1    4650 3850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 3750 4500 3750
-Wire Wire Line
-	4250 3850 4500 3850
 Wire Wire Line
 	4800 3750 5100 3750
 Wire Wire Line
@@ -131,30 +127,28 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 60123484
-P 4800 3150
-F 0 "#PWR0103" H 4800 2900 50  0001 C CNN
-F 1 "GND" H 4805 2977 50  0000 C CNN
-F 2 "" H 4800 3150 50  0001 C CNN
-F 3 "" H 4800 3150 50  0001 C CNN
-	1    4800 3150
+P 4800 3250
+F 0 "#PWR0103" H 4800 3000 50  0001 C CNN
+F 1 "GND" H 4805 3077 50  0000 C CNN
+F 2 "" H 4800 3250 50  0001 C CNN
+F 3 "" H 4800 3250 50  0001 C CNN
+	1    4800 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3450 4500 3450
 $Comp
 L Device:C C3
 U 1 1 6012A09C
-P 4500 3300
-F 0 "C3" H 4250 3400 50  0000 L CNN
-F 1 "10 uF" H 4150 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 3150 50  0001 C CNN
-F 3 "~" H 4500 3300 50  0001 C CNN
-	1    4500 3300
+P 4500 3400
+F 0 "C3" H 4250 3500 50  0000 L CNN
+F 1 "10 uF" H 4150 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 3250 50  0001 C CNN
+F 3 "~" H 4500 3400 50  0001 C CNN
+	1    4500 3400
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 3450
+Connection ~ 4500 3550
 Wire Wire Line
-	4500 3450 4800 3450
+	4500 3550 4800 3550
 Text Notes 4300 4900 0    59   ~ 0
 Set to UFP (Peripheral)\nAlso marks this as a USB 2.0 peripheral device\n\nFor DFP (Host) you need pullups\nhere instead of pulldowns.
 Text GLabel 9900 6200 1    50   Input ~ 0
@@ -361,32 +355,6 @@ F 1 "GND" H 11805 8077 50  0000 C CNN
 F 2 "" H 11800 8250 50  0001 C CNN
 F 3 "" H 11800 8250 50  0001 C CNN
 	1    11800 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 604095B5
-P 4250 4250
-F 0 "#PWR0110" H 4250 4000 50  0001 C CNN
-F 1 "GND" V 4255 4122 50  0000 R CNN
-F 2 "" H 4250 4250 50  0001 C CNN
-F 3 "" H 4250 4250 50  0001 C CNN
-	1    4250 4250
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 4250 4050
-NoConn ~ 4250 3950
-NoConn ~ 4250 3650
-NoConn ~ 4250 3550
-$Comp
-L pcb-rescue:USB_C-lipousbc-eagle-import X1
-U 1 1 60044940
-P 3850 3850
-F 0 "X1" H 3857 4497 42  0000 C CNN
-F 1 "USB_C" H 3857 4418 42  0000 C CNN
-F 2 "digikey-footprints:USB-C_Female_E8124-015-01" H 3850 3850 50  0001 C CNN
-F 3 "" H 3850 3850 50  0001 C CNN
-	1    3850 3850
 	1    0    0    -1  
 $EndComp
 Text GLabel 12500 6750 2    50   Input ~ 0
@@ -936,6 +904,48 @@ F 1 "SW_SPST" H 13500 3944 50  0000 C CNN
 F 2 "tinycam:FP11SPA1B1TP00" H 13500 3800 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/judco-manufacturing-inc/50-0014-00/518PB-ND/307996" H 13500 3800 50  0001 C CNN
 	1    13500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3550 4500 3550
+Wire Wire Line
+	4000 3750 4500 3750
+Wire Wire Line
+	4000 3850 4500 3850
+$Comp
+L power:GND #PWR0110
+U 1 1 5F427914
+P 3400 6150
+F 0 "#PWR0110" H 3400 5900 50  0001 C CNN
+F 1 "GND" H 3405 5977 50  0000 C CNN
+F 2 "" H 3400 6150 50  0001 C CNN
+F 3 "" H 3400 6150 50  0001 C CNN
+	1    3400 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4000 4050
+NoConn ~ 4000 4150
+NoConn ~ 4000 4250
+NoConn ~ 4000 4350
+NoConn ~ 4000 4550
+NoConn ~ 4000 4650
+NoConn ~ 4000 4850
+NoConn ~ 4000 4950
+NoConn ~ 4000 5150
+NoConn ~ 4000 5250
+NoConn ~ 4000 5450
+NoConn ~ 4000 5550
+NoConn ~ 4000 5750
+NoConn ~ 4000 5850
+$Comp
+L pcb-copy:USB_C_Receptacle J3
+U 1 1 5F483AEA
+P 3400 4550
+F 0 "J3" H 3507 5817 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 3507 5726 50  0000 C CNN
+F 2 "digikey-footprints:USB-C_Female_E8124-015-01" H 3550 4550 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3550 4550 50  0001 C CNN
+	1    3400 4550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
