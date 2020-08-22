@@ -55,101 +55,101 @@ F 12 "Active" H 13850 8350 60  0001 L CNN "Status"
 	1    13650 7150
 	0    -1   -1   0   
 $EndComp
-Text Notes 11050 4250 0    50   ~ 0
+Text Notes 10250 4600 0    50   ~ 0
 RPi header, first 16 pins (2x8)
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1
 U 1 1 5F8C44B2
-P 11500 3600
-F 0 "J1" H 11550 4117 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 11550 4026 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 11500 3600 50  0001 C CNN
-F 3 "~" H 11500 3600 50  0001 C CNN
-	1    11500 3600
+P 10700 3950
+F 0 "J1" H 10750 4467 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10750 4376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 10700 3950 50  0001 C CNN
+F 3 "~" H 10700 3950 50  0001 C CNN
+	1    10700 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 3550 2    50   Input ~ 0
+Text GLabel 6650 2650 2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	4500 3250 4800 3250
+	6350 2350 6650 2350
 $Comp
 L Device:R R3
 U 1 1 600F42D8
-P 4650 3750
-F 0 "R3" V 4550 3750 50  0000 C CNN
-F 1 "5.1k" V 4650 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 3750 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-075K1L/311-5-10KLRCT-ND/729571" H 4650 3750 50  0001 C CNN
-	1    4650 3750
+P 6500 2850
+F 0 "R3" V 6400 2850 50  0000 C CNN
+F 1 "5.1k" V 6500 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-075K1L/311-5-10KLRCT-ND/729571" H 6500 2850 50  0001 C CNN
+	1    6500 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 600F482B
-P 4650 3850
-F 0 "R4" V 4750 3850 50  0000 C CNN
-F 1 "5.1k" V 4650 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 3850 50  0001 C CNN
-F 3 "~" H 4650 3850 50  0001 C CNN
-	1    4650 3850
+P 6500 2950
+F 0 "R4" V 6600 2950 50  0000 C CNN
+F 1 "5.1k" V 6500 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 2950 50  0001 C CNN
+F 3 "~" H 6500 2950 50  0001 C CNN
+	1    6500 2950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 3750 5100 3750
+	6650 2850 6950 2850
 Wire Wire Line
-	5100 3750 5100 4100
+	6950 2850 6950 3200
 Wire Wire Line
-	4800 3850 4950 3850
+	6650 2950 6800 2950
 Wire Wire Line
-	4950 3850 4950 4100
+	6800 2950 6800 3200
 $Comp
 L power:GND #PWR0101
 U 1 1 60122058
-P 4950 4100
-F 0 "#PWR0101" H 4950 3850 50  0001 C CNN
-F 1 "GND" H 4955 3927 50  0000 C CNN
-F 2 "" H 4950 4100 50  0001 C CNN
-F 3 "" H 4950 4100 50  0001 C CNN
-	1    4950 4100
+P 6800 3200
+F 0 "#PWR0101" H 6800 2950 50  0001 C CNN
+F 1 "GND" H 6805 3027 50  0000 C CNN
+F 2 "" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 60123124
-P 5100 4100
-F 0 "#PWR0102" H 5100 3850 50  0001 C CNN
-F 1 "GND" H 5105 3927 50  0000 C CNN
-F 2 "" H 5100 4100 50  0001 C CNN
-F 3 "" H 5100 4100 50  0001 C CNN
-	1    5100 4100
+P 6950 3200
+F 0 "#PWR0102" H 6950 2950 50  0001 C CNN
+F 1 "GND" H 6955 3027 50  0000 C CNN
+F 2 "" H 6950 3200 50  0001 C CNN
+F 3 "" H 6950 3200 50  0001 C CNN
+	1    6950 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 60123484
-P 4800 3250
-F 0 "#PWR0103" H 4800 3000 50  0001 C CNN
-F 1 "GND" H 4805 3077 50  0000 C CNN
-F 2 "" H 4800 3250 50  0001 C CNN
-F 3 "" H 4800 3250 50  0001 C CNN
-	1    4800 3250
+P 6650 2350
+F 0 "#PWR0103" H 6650 2100 50  0001 C CNN
+F 1 "GND" H 6655 2177 50  0000 C CNN
+F 2 "" H 6650 2350 50  0001 C CNN
+F 3 "" H 6650 2350 50  0001 C CNN
+	1    6650 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 6012A09C
-P 4500 3400
-F 0 "C3" H 4250 3500 50  0000 L CNN
-F 1 "10 uF" H 4150 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 3250 50  0001 C CNN
-F 3 "~" H 4500 3400 50  0001 C CNN
-	1    4500 3400
+P 6350 2500
+F 0 "C3" H 6100 2600 50  0000 L CNN
+F 1 "10 uF" H 6000 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 2350 50  0001 C CNN
+F 3 "~" H 6350 2500 50  0001 C CNN
+	1    6350 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 3550
+Connection ~ 6350 2650
 Wire Wire Line
-	4500 3550 4800 3550
-Text Notes 4300 4900 0    59   ~ 0
+	6350 2650 6650 2650
+Text Notes 6150 4000 0    59   ~ 0
 Set to UFP (Peripheral)\nAlso marks this as a USB 2.0 peripheral device\n\nFor DFP (Host) you need pullups\nhere instead of pulldowns.
 Text GLabel 9900 6200 1    50   Input ~ 0
 VBUS
@@ -361,33 +361,33 @@ Text GLabel 12500 6750 2    50   Input ~ 0
 VBAT
 Text GLabel 11800 6450 1    50   Input ~ 0
 VBUS
-Text GLabel 11800 3500 2    50   Input ~ 0
+Text GLabel 11000 3850 2    50   Input ~ 0
 GND
-Text GLabel 11800 3600 2    50   Input ~ 0
+Text GLabel 11000 3950 2    50   Input ~ 0
 PI_BCM_14_TXD
-Text GLabel 11800 3700 2    50   Input ~ 0
+Text GLabel 11000 4050 2    50   Input ~ 0
 PI_BCM_15_RXD
-Text GLabel 11800 3800 2    50   Input ~ 0
+Text GLabel 11000 4150 2    50   Input ~ 0
 PI_BCM_18_PWM0
-Text GLabel 11800 3900 2    50   Input ~ 0
+Text GLabel 11000 4250 2    50   Input ~ 0
 GND
-Text GLabel 11800 4000 2    50   Input ~ 0
+Text GLabel 11000 4350 2    50   Input ~ 0
 PI_BCM_23
-Text GLabel 11300 3300 0    50   Input ~ 0
+Text GLabel 10500 3650 0    50   Input ~ 0
 PI_3V3
-Text GLabel 11300 3400 0    50   Input ~ 0
+Text GLabel 10500 3750 0    50   Input ~ 0
 PI_BCM_2_SDA
-Text GLabel 11300 3500 0    50   Input ~ 0
+Text GLabel 10500 3850 0    50   Input ~ 0
 PI_BCM_3_SCL
-Text GLabel 11300 3600 0    50   Input ~ 0
+Text GLabel 10500 3950 0    50   Input ~ 0
 PI_BCM_4_GPCLK0
-Text GLabel 11300 3700 0    50   Input ~ 0
+Text GLabel 10500 4050 0    50   Input ~ 0
 GND
-Text GLabel 11300 3800 0    50   Input ~ 0
+Text GLabel 10500 4150 0    50   Input ~ 0
 PI_BCM_17
-Text GLabel 11300 3900 0    50   Input ~ 0
+Text GLabel 10500 4250 0    50   Input ~ 0
 PI_BCM_27
-Text GLabel 11300 4000 0    50   Input ~ 0
+Text GLabel 10500 4350 0    50   Input ~ 0
 PI_BCM_22
 $Comp
 L Device:C C6
@@ -421,17 +421,17 @@ Text GLabel 13050 6750 1    50   Input ~ 0
 VLIPO
 Wire Wire Line
 	13050 7050 13550 7050
-Text GLabel 11950 3300 2    50   Input ~ 0
+Text GLabel 11150 3650 2    50   Input ~ 0
 5.0V
 Wire Wire Line
-	11800 3300 11900 3300
+	11000 3650 11100 3650
 Wire Wire Line
-	11800 3400 11900 3400
+	11000 3750 11100 3750
 Wire Wire Line
-	11900 3400 11900 3300
-Connection ~ 11900 3300
+	11100 3750 11100 3650
+Connection ~ 11100 3650
 Wire Wire Line
-	11900 3300 11950 3300
+	11100 3650 11150 3650
 $Comp
 L dk_Transistors-Bipolar-BJT-Single-Pre-Biased:MMUN2211LT1G Q1
 U 1 1 5F5AA044
@@ -505,17 +505,17 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0113
 U 1 1 5F5EA593
-P 13900 3800
-F 0 "#PWR0113" H 13900 3550 50  0001 C CNN
-F 1 "GND" H 13905 3627 50  0000 C CNN
-F 2 "" H 13900 3800 50  0001 C CNN
-F 3 "" H 13900 3800 50  0001 C CNN
-	1    13900 3800
+P 13100 4150
+F 0 "#PWR0113" H 13100 3900 50  0001 C CNN
+F 1 "GND" H 13105 3977 50  0000 C CNN
+F 2 "" H 13100 4150 50  0001 C CNN
+F 3 "" H 13100 4150 50  0001 C CNN
+	1    13100 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13700 3800 13900 3800
-Text GLabel 13300 3800 0    50   Input ~ 0
+	12900 4150 13100 4150
+Text GLabel 12500 4150 0    50   Input ~ 0
 PI_BCM_18_PWM0
 Text GLabel 6750 7100 1    50   Input ~ 0
 VBAT
@@ -898,54 +898,54 @@ $EndComp
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 5F5697F6
-P 13500 3800
-F 0 "SW1" H 13500 4035 50  0000 C CNN
-F 1 "SW_SPST" H 13500 3944 50  0000 C CNN
-F 2 "tinycam:FP11SPA1B1TP00" H 13500 3800 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/judco-manufacturing-inc/50-0014-00/518PB-ND/307996" H 13500 3800 50  0001 C CNN
-	1    13500 3800
+P 12700 4150
+F 0 "SW1" H 12700 4385 50  0000 C CNN
+F 1 "SW_SPST" H 12700 4294 50  0000 C CNN
+F 2 "tinycam:FP11SPA1B1TP00" H 12700 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/judco-manufacturing-inc/50-0014-00/518PB-ND/307996" H 12700 4150 50  0001 C CNN
+	1    12700 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3550 4500 3550
+	5850 2650 6350 2650
 Wire Wire Line
-	4000 3750 4500 3750
+	5850 2850 6350 2850
 Wire Wire Line
-	4000 3850 4500 3850
+	5850 2950 6350 2950
 $Comp
 L power:GND #PWR0110
 U 1 1 5F427914
-P 3400 6150
-F 0 "#PWR0110" H 3400 5900 50  0001 C CNN
-F 1 "GND" H 3405 5977 50  0000 C CNN
-F 2 "" H 3400 6150 50  0001 C CNN
-F 3 "" H 3400 6150 50  0001 C CNN
-	1    3400 6150
+P 5250 5250
+F 0 "#PWR0110" H 5250 5000 50  0001 C CNN
+F 1 "GND" H 5255 5077 50  0000 C CNN
+F 2 "" H 5250 5250 50  0001 C CNN
+F 3 "" H 5250 5250 50  0001 C CNN
+	1    5250 5250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4000 4050
-NoConn ~ 4000 4150
-NoConn ~ 4000 4250
-NoConn ~ 4000 4350
-NoConn ~ 4000 4550
-NoConn ~ 4000 4650
-NoConn ~ 4000 4850
-NoConn ~ 4000 4950
-NoConn ~ 4000 5150
-NoConn ~ 4000 5250
-NoConn ~ 4000 5450
-NoConn ~ 4000 5550
-NoConn ~ 4000 5750
-NoConn ~ 4000 5850
+NoConn ~ 5850 3150
+NoConn ~ 5850 3250
+NoConn ~ 5850 3350
+NoConn ~ 5850 3450
+NoConn ~ 5850 3650
+NoConn ~ 5850 3750
+NoConn ~ 5850 3950
+NoConn ~ 5850 4050
+NoConn ~ 5850 4250
+NoConn ~ 5850 4350
+NoConn ~ 5850 4550
+NoConn ~ 5850 4650
+NoConn ~ 5850 4850
+NoConn ~ 5850 4950
 $Comp
 L pcb-copy:USB_C_Receptacle J3
 U 1 1 5F483AEA
-P 3400 4550
-F 0 "J3" H 3507 5817 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 3507 5726 50  0000 C CNN
-F 2 "digikey-footprints:USB-C_Female_E8124-015-01" H 3550 4550 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3550 4550 50  0001 C CNN
-	1    3400 4550
+P 5250 3650
+F 0 "J3" H 5357 4917 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 5357 4826 50  0000 C CNN
+F 2 "digikey-footprints:USB-C_Female_E8124-015-01" H 5400 3650 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5400 3650 50  0001 C CNN
+	1    5250 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
