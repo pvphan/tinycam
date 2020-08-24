@@ -1,0 +1,28 @@
+Id,Designator,Package,Quantity,Designation,DigiKey PN,Supplier and ref
+1,SW1,FP11SPA1B1TP00,1,SW_SPST,CKN10296-ND,https://www.digikey.com/products/en?keywords=FP11SPA1B1TP00
+2,"H2,H1",MountingHole_2.7mm_M2.5_ISO7380_Pad,2,MountingHole,--,--
+3,J4,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04,--,--
+4,J1,PinSocket_2x08_P2.54mm_Vertical,1,Conn_02x08_Odd_Even,--,--
+5,R15,R_0805_2012Metric,1,15K,P15KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB153V/P15KDACT-ND/1465975
+6,"R14,R13,R11,R8",R_0805_2012Metric,4,1K,P1.0KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947
+7,"R12,R10",R_0805_2012Metric,2,100K,P100KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB104V/P100KDACT-ND/1465995
+8,R9,R_0805_2012Metric,1,270K,P270KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005
+9,"R7,R5",R_0805_2012Metric,2,200K,P200KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB204V/P200KDACT-ND/1466002
+10,"R6,R1",R_0805_2012Metric,2,1.87M,P1.87BTCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1874V/P1-87BTCT-ND/4429149
+11,"R4,R3",R_0805_2012Metric,2,5.1k,P123856CT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AED512V/P123856CT-ND/9467785
+12,R2,R_0805_2012Metric,1,340K,P340KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3403V/P340KDACT-ND/3075097
+13,C5,C_0805_2012Metric,1,100 uF,399-5620-1-ND,https://www.digikey.com/product-detail/en/kemet/C1206C107M9PACTU/399-5620-1-ND/2057834
+14,C4,C_0805_2012Metric,1,2.2 uF,399-7886-1-ND,https://www.digikey.com/product-detail/en/kemet/C0603C225K4PACTU/399-7886-1-ND/3471609
+15,C2,C_0805_2012Metric,1,0.1 uF,399-1043-1-ND,https://www.digikey.com/product-detail/en/kemet/C0402C104Z4VAC7867/399-1043-1-ND/411318
+16,J3,USB-C_Female_E8124-015-01,1,USB_C_Receptacle,553-3195-1-ND,https://www.digikey.com/product-detail/en/E8124-015-01/553-3195-1-ND/5800427/?itemSeq=335518111
+17,"C1,C3,C6",C_0805_2012Metric,3,10 uF,399-4925-1-ND,https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920
+18,D1,LED_0805_2012Metric,1,RED_LED,160-1427-6-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-6-ND/1888649
+19,D2,LED_0805_2012Metric,1,BLUE_LED,160-1645-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171TBKT/160-1645-1-ND/573585
+20,D3,LED_0805_2012Metric,1,ORANGE_LED,160-1413-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170KFKT/160-1413-1-ND/386774
+21,D4,LED_0805_2012Metric,1,GREEN_LED,160-1423-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171GKT/160-1423-1-ND/386792
+22,J2,PinHeader_1x2_P2mm_Drill1mm,1,B2B-PH-K-S_LF__SN_,455-1704-ND,https://www.digikey.com/product-detail/en/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611/?itemSeq=335518687
+23,L1,L_Wuerth_HCI-5040,1,6.8 uH,732-6156-1-ND,https://www.digikey.com/product-detail/en/74437334068/732-6156-1-ND/5050892/?itemSeq=336153478
+24,Q1,SOT-23-3,1,MMUN2211LT1G,MMUN2133LT1GOSCT-ND,https://www.digikey.com/product-detail/en/MMUN2133LT1G/MMUN2133LT1GOSCT-ND/2705149/?itemSeq=335527702
+25,S1,SW_CuK_JS202011AQN_DPDT_Angled,1,JS202011SCQN,CKN10722CT-ND,https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920
+26,U1,Texas_S-PVQFN-N16_EP2.7x2.7mm_ThermalVias,1,TPS61090,296-15259-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170KFKT/160-1413-1-ND/386774
+27,U2,QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,1,MCP73871-1AA,MCP73871-2AAI/ML-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3403V/P340KDACT-ND/3075097
