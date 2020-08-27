@@ -8,12 +8,12 @@ Id,Designator,Package,Quantity,Designation,DigiKey PN,Supplier and ref
 10,"R6,R1",R_0805_2012Metric,2,1.87M,P1.87BTCT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1874V/P1-87BTCT-ND/4429149
 11,"R4,R3",R_0805_2012Metric,2,5.1k,P123856CT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AED512V/P123856CT-ND/9467785
 12,R2,R_0805_2012Metric,1,340K,P340KDACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3403V/P340KDACT-ND/3075097
-13,C5,C_0805_2012Metric,1,100 uF,399-5620-1-ND,https://www.digikey.com/product-detail/en/kemet/C1206C107M9PACTU/399-5620-1-ND/2057834
-14,C4,C_0805_2012Metric,1,2.2 uF,399-7886-1-ND,https://www.digikey.com/product-detail/en/kemet/C0603C225K4PACTU/399-7886-1-ND/3471609
-15,C2,C_0805_2012Metric,1,0.1 uF,399-1043-1-ND,https://www.digikey.com/product-detail/en/kemet/C0402C104Z4VAC7867/399-1043-1-ND/411318
+13,C5,C_0805_2012Metric,1,100 uF,490-13981-1-ND,https://www.digikey.com/product-detail/en/GRM21BR60J107ME15L/490-13981-1-ND/6155811/?itemSeq=336643025
+14,C4,C_0805_2012Metric,1,2.2 uF,399-1295-1-ND,https://www.digikey.com/product-detail/en/C0805C225Z4VACTU/399-1295-1-ND/417868/?itemSeq=336643029
+15,C2,C_0805_2012Metric,1,0.1 uF,399-1177-1-ND,https://www.digikey.com/product-detail/en/C0805C104Z5VACTU/399-1177-1-ND/411452/?itemSeq=336643108
 16,J3,USB-C_Female_E8124-015-01,1,USB_C_Receptacle,553-3195-1-ND,https://www.digikey.com/product-detail/en/E8124-015-01/553-3195-1-ND/5800427/?itemSeq=335518111
 17,"C1,C3,C6",C_0805_2012Metric,3,10 uF,399-4925-1-ND,https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920
-18,D1,LED_0805_2012Metric,1,RED_LED,160-1427-6-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-6-ND/1888649
+18,D1,LED_0805_2012Metric,1,RED_LED,160-1427-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800
 19,D2,LED_0805_2012Metric,1,BLUE_LED,160-1645-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171TBKT/160-1645-1-ND/573585
 20,D3,LED_0805_2012Metric,1,ORANGE_LED,160-1413-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170KFKT/160-1413-1-ND/386774
 21,D4,LED_0805_2012Metric,1,GREEN_LED,160-1423-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171GKT/160-1423-1-ND/386792
