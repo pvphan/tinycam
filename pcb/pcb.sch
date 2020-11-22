@@ -361,16 +361,12 @@ Text GLabel 8100 4600 2    50   Input ~ 0
 VBAT
 Text GLabel 7400 4300 1    50   Input ~ 0
 VBUS
-Text GLabel 8650 2200 2    50   Input ~ 0
-GND
 Text GLabel 8650 2300 2    50   Input ~ 0
 PI_BCM_14_TXD
 Text GLabel 8650 2400 2    50   Input ~ 0
 PI_BCM_15_RXD
 Text GLabel 8650 2500 2    50   Input ~ 0
 PI_BCM_18_PWM0
-Text GLabel 8650 2600 2    50   Input ~ 0
-GND
 Text GLabel 8650 2700 2    50   Input ~ 0
 PI_BCM_23
 Text GLabel 8150 2000 0    50   Input ~ 0
@@ -381,8 +377,6 @@ Text GLabel 8150 2200 0    50   Input ~ 0
 PI_BCM_3_SCL
 Text GLabel 8150 2300 0    50   Input ~ 0
 PI_BCM_4_GPCLK0
-Text GLabel 8150 2400 0    50   Input ~ 0
-GND
 Text GLabel 8150 2500 0    50   Input ~ 0
 PI_BCM_17
 Text GLabel 8150 2600 0    50   Input ~ 0
@@ -487,7 +481,7 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RT0402BRD07200KL/YAG4202CT-
 	1    3500 2150
 	-1   0    0    1   
 $EndComp
-Text GLabel 3500 2300 3    50   Input ~ 0
+Text GLabel 3500 2400 3    50   Input ~ 0
 VBAT
 $Comp
 L power:GND #PWR0112
@@ -541,17 +535,6 @@ F 3 "~" H 5450 2600 50  0001 C CNN
 	1    5450 2600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5F7185AC
-P 5450 2750
-F 0 "#PWR0114" H 5450 2500 50  0001 C CNN
-F 1 "GND" H 5455 2577 50  0000 C CNN
-F 2 "" H 5450 2750 50  0001 C CNN
-F 3 "" H 5450 2750 50  0001 C CNN
-	1    5450 2750
-	1    0    0    -1  
-$EndComp
 Text GLabel 4800 2100 3    50   Input ~ 0
 PI_BCM_23
 Wire Wire Line
@@ -574,7 +557,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2550 3950 2550
 Wire Wire Line
-	3750 2550 3750 2750
+	3750 2550 3750 2700
 Connection ~ 3750 2550
 $Comp
 L power:GND #PWR0115
@@ -634,25 +617,6 @@ Wire Wire Line
 Connection ~ 5000 1150
 Wire Wire Line
 	5000 1150 5000 1250
-Wire Wire Line
-	5000 1550 5000 2650
-Wire Wire Line
-	5000 2650 4250 2650
-Connection ~ 4250 2650
-$Comp
-L power:GND #PWR0116
-U 1 1 5F9A8E9E
-P 5000 2750
-F 0 "#PWR0116" H 5000 2500 50  0001 C CNN
-F 1 "GND" H 5005 2577 50  0000 C CNN
-F 2 "" H 5000 2750 50  0001 C CNN
-F 3 "" H 5000 2750 50  0001 C CNN
-	1    5000 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 2750 5000 2650
-Connection ~ 5000 2650
 $Comp
 L Device:C C4
 U 1 1 5F9EA2F1
@@ -668,23 +632,12 @@ Wire Wire Line
 	5000 750  5350 750 
 Connection ~ 5000 750 
 $Comp
-L power:GND #PWR0117
-U 1 1 5FA2D812
-P 5350 1050
-F 0 "#PWR0117" H 5350 800 50  0001 C CNN
-F 1 "GND" H 5355 877 50  0000 C CNN
-F 2 "" H 5350 1050 50  0001 C CNN
-F 3 "" H 5350 1050 50  0001 C CNN
-	1    5350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C5
 U 1 1 5FA5D4AB
 P 5900 900
 F 0 "C5" H 6015 946 50  0000 L CNN
 F 1 "100 uF" H 6015 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 900 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F" H 5900 900 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/kemet/C1206C107M9PACTU/399-5620-1-ND/2057834" H 5900 900 50  0001 C CNN
 	1    5900 900 
 	1    0    0    -1  
@@ -692,17 +645,6 @@ $EndComp
 Wire Wire Line
 	5350 750  5900 750 
 Connection ~ 5350 750 
-$Comp
-L power:GND #PWR0118
-U 1 1 5FA880AC
-P 5900 1050
-F 0 "#PWR0118" H 5900 800 50  0001 C CNN
-F 1 "GND" H 5905 877 50  0000 C CNN
-F 2 "" H 5900 1050 50  0001 C CNN
-F 3 "" H 5900 1050 50  0001 C CNN
-	1    5900 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 750  5900 500 
 Connection ~ 5900 750 
@@ -721,17 +663,6 @@ F 3 "~" H 6450 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 750  6450 750 
-$Comp
-L power:GND #PWR0119
-U 1 1 5FAE7981
-P 6450 1350
-F 0 "#PWR0119" H 6450 1100 50  0001 C CNN
-F 1 "GND" H 6450 1200 50  0000 C CNN
-F 2 "" H 6450 1350 50  0001 C CNN
-F 3 "" H 6450 1350 50  0001 C CNN
-	1    6450 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 1850 3500 1850
 Wire Wire Line
@@ -745,7 +676,7 @@ U 1 1 5FD0CB8C
 P 3300 1450
 F 0 "L1" V 3500 1450 50  0000 C CNN
 F 1 "6.8 uH" V 3210 1450 50  0000 C CNN
-F 2 "Inductor_SMD:L_Wuerth_HCI-5040" H 3300 1450 50  0001 C CNN
+F 2 "Inductor_SMD:L_Wuerth_WE-PD2-Typ-L" H 3300 1450 50  0001 C CNN
 F 3 "~" H 3300 1450 50  0001 C CNN
 	1    3300 1450
 	0    -1   -1   0   
@@ -792,28 +723,6 @@ $EndComp
 Connection ~ 1700 1650
 Wire Wire Line
 	1700 1650 1150 1650
-$Comp
-L power:GND #PWR0120
-U 1 1 5FE9FF26
-P 1700 1950
-F 0 "#PWR0120" H 1700 1700 50  0001 C CNN
-F 1 "GND" H 1705 1777 50  0000 C CNN
-F 2 "" H 1700 1950 50  0001 C CNN
-F 3 "" H 1700 1950 50  0001 C CNN
-	1    1700 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5FEA061E
-P 1150 1950
-F 0 "#PWR0121" H 1150 1700 50  0001 C CNN
-F 1 "GND" H 1155 1777 50  0000 C CNN
-F 2 "" H 1150 1950 50  0001 C CNN
-F 3 "" H 1150 1950 50  0001 C CNN
-	1    1150 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 1450 3150 1450
 Wire Wire Line
@@ -848,17 +757,6 @@ F 1 "340K" V 2150 2200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2080 2300 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF3403X/P340KLCT-ND/194356" H 2150 2300 50  0001 C CNN
 	1    2150 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5FF28144
-P 2150 2450
-F 0 "#PWR0122" H 2150 2200 50  0001 C CNN
-F 1 "GND" H 2155 2277 50  0000 C CNN
-F 2 "" H 2150 2450 50  0001 C CNN
-F 3 "" H 2150 2450 50  0001 C CNN
-	1    2150 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -949,66 +847,141 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1900 54
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5F46CA4B
-P 8450 1250
-F 0 "J4" H 8530 1242 50  0000 L CNN
-F 1 "Conn_01x04" H 8530 1151 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8450 1250 50  0001 C CNN
-F 3 "~" H 8450 1250 50  0001 C CNN
-	1    8450 1250
-	1    0    0    -1  
-$EndComp
-Text GLabel 8250 1250 0    50   Input ~ 0
-5.0V
-Text GLabel 8250 1350 0    50   Input ~ 0
-PI_BCM_2_SDA
-Text GLabel 8250 1450 0    50   Input ~ 0
-PI_BCM_3_SCL
-Text GLabel 8250 1150 0    50   Input ~ 0
-GND
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5F479AFB
-P 6050 7150
-F 0 "H1" H 6150 7241 50  0000 L CNN
-F 1 "MountingHole" H 6150 7150 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 6150 7059 50  0000 L CNN
-F 3 "~" H 6050 7150 50  0001 C CNN
-	1    6050 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5F47B4E8
-P 6050 7350
-F 0 "H2" H 6150 7441 50  0000 L CNN
-F 1 "MountingHole" H 6150 7350 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 6150 7259 50  0000 L CNN
-F 3 "~" H 6050 7350 50  0001 C CNN
-	1    6050 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F54AE27
-P 4350 2550
-F 0 "#PWR?" H 4350 2300 50  0001 C CNN
-F 1 "GND" H 4355 2377 50  0000 C CNN
-F 2 "" H 4350 2550 50  0001 C CNN
-F 3 "" H 4350 2550 50  0001 C CNN
-	1    4350 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R16
 U 1 1 5F8DBF9D
 P 6450 900
-F 0 "R?" H 6500 900 50  0000 L CNN
+F 0 "R16" H 6500 900 50  0000 L CNN
 F 1 "1K" V 6450 850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6380 900 50  0001 C CNN
 F 3 "~" H 6450 900 50  0001 C CNN
 	1    6450 900 
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8650 2200
+NoConn ~ 8150 2400
+NoConn ~ 8650 2600
+$Comp
+L power:GNDPWR #PWR0114
+U 1 1 5FBED8D7
+P 4250 2650
+F 0 "#PWR0114" H 4250 2450 50  0001 C CNN
+F 1 "GNDPWR" H 4254 2496 50  0000 C CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0116
+U 1 1 5FBF1646
+P 4000 2800
+F 0 "#PWR0116" H 4000 2600 50  0001 C CNN
+F 1 "GNDPWR" H 4000 2650 50  0000 C CNN
+F 2 "" H 4000 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2700 4000 2700
+Wire Wire Line
+	4000 2700 4000 2800
+Connection ~ 3750 2700
+Wire Wire Line
+	3750 2700 3750 2750
+$Comp
+L power:GNDPWR #PWR0117
+U 1 1 5FC02B30
+P 5000 1550
+F 0 "#PWR0117" H 5000 1350 50  0001 C CNN
+F 1 "GNDPWR" H 5004 1396 50  0000 C CNN
+F 2 "" H 5000 1500 50  0001 C CNN
+F 3 "" H 5000 1500 50  0001 C CNN
+	1    5000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0118
+U 1 1 5FC0532A
+P 5350 1150
+F 0 "#PWR0118" H 5350 950 50  0001 C CNN
+F 1 "GNDPWR" H 5354 996 50  0000 C CNN
+F 2 "" H 5350 1100 50  0001 C CNN
+F 3 "" H 5350 1100 50  0001 C CNN
+	1    5350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0119
+U 1 1 5FC0590A
+P 5900 1150
+F 0 "#PWR0119" H 5900 950 50  0001 C CNN
+F 1 "GNDPWR" H 5904 996 50  0000 C CNN
+F 2 "" H 5900 1100 50  0001 C CNN
+F 3 "" H 5900 1100 50  0001 C CNN
+	1    5900 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1950
+Wire Wire Line
+	1150 1950 1700 1950
+$Comp
+L power:GNDPWR #PWR0120
+U 1 1 5FC0AE9C
+P 1700 1950
+F 0 "#PWR0120" H 1700 1750 50  0001 C CNN
+F 1 "GNDPWR" H 1700 1800 50  0000 C CNN
+F 2 "" H 1700 1900 50  0001 C CNN
+F 3 "" H 1700 1900 50  0001 C CNN
+	1    1700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0121
+U 1 1 5FC0D69D
+P 2150 2450
+F 0 "#PWR0121" H 2150 2250 50  0001 C CNN
+F 1 "GNDPWR" H 2150 2300 50  0000 C CNN
+F 2 "" H 2150 2400 50  0001 C CNN
+F 3 "" H 2150 2400 50  0001 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0122
+U 1 1 5FC13872
+P 6450 1450
+F 0 "#PWR0122" H 6450 1250 50  0001 C CNN
+F 1 "GNDPWR" H 6454 1296 50  0000 C CNN
+F 2 "" H 6450 1400 50  0001 C CNN
+F 3 "" H 6450 1400 50  0001 C CNN
+	1    6450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1350 6450 1450
+Wire Wire Line
+	5900 1050 5900 1150
+Wire Wire Line
+	5350 1050 5350 1150
+Wire Wire Line
+	5450 2750 5450 2850
+Wire Wire Line
+	4350 2550 4350 2650
+Wire Wire Line
+	4350 2650 4250 2650
+Connection ~ 4250 2650
+$Comp
+L power:GNDPWR #PWR0123
+U 1 1 5FC3BE8C
+P 5450 2850
+F 0 "#PWR0123" H 5450 2650 50  0001 C CNN
+F 1 "GNDPWR" H 5454 2696 50  0000 C CNN
+F 2 "" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	1    5450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2300 3500 2400
 $EndSCHEMATC
