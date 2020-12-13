@@ -287,7 +287,7 @@ F 1 "GREEN_LED" H 8750 5850 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9000 5700 50  0001 C CNN
 F 3 "~" H 9000 5700 50  0001 C CNN
 	1    9000 5700
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
@@ -298,7 +298,7 @@ F 1 "ORANGE_LED" H 8750 5350 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 9000 5500 50  0001 C CNN
 F 3 "~" H 9000 5500 50  0001 C CNN
 	1    9000 5500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
@@ -857,7 +857,6 @@ F 3 "~" H 6450 900 50  0001 C CNN
 	1    6450 900 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8650 2200
 NoConn ~ 8150 2400
 NoConn ~ 8650 2600
 $Comp
@@ -984,4 +983,17 @@ F 3 "" H 5450 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 2300 3500 2400
+$Comp
+L power:GNDPWR #PWR0124
+U 1 1 5FD66354
+P 9500 2200
+F 0 "#PWR0124" H 9500 2000 50  0001 C CNN
+F 1 "GNDPWR" H 9504 2046 50  0000 C CNN
+F 2 "" H 9500 2150 50  0001 C CNN
+F 3 "" H 9500 2150 50  0001 C CNN
+	1    9500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2200 9500 2200
 $EndSCHEMATC
